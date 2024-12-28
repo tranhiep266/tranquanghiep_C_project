@@ -1,16 +1,12 @@
 #include <stdbool.h>
 
-//struct Date{
-//	int month,day,year;
-//};
 
-struct AccountInfo{
-	char userId[20];
-};
-
-typedef struct {
-	char userId[10];
-	char name[20];
-	char phone[10];
-}User;
-
+typedef struct{
+    char id[20];
+    char name[50];
+    char phoneNumber[20];
+    char email[50];
+    char userName[20];
+    char password[20];
+    int status;
+} User;
