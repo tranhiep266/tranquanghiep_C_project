@@ -9,4 +9,4 @@ typedef struct{
     char userName[20];
     char password[20];
     int status;
-} User;
+}User;
